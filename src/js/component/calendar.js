@@ -5,11 +5,11 @@ import { Scheduler, DayView, WeekView, MonthView, Appointments } from "@devexpre
 
 const currentDate = new Date();
 const schedulerData = [
-	{ startDate: "2020-11-08T09:45", endDate: "2018-11-08T11:00", title: "Meeting" },
-	{ startDate: "2020-11-09T12:00", endDate: "2018-11-09T13:30", title: "Go to a gym" },
-	{ startDate: "2020-11-10T16:00", endDate: "2018-11-10T16:30", title: "Else" },
-	{ startDate: "2020-11-11T13:00", endDate: "2018-11-11T13:30", title: "Else" },
-	{ startDate: "2020-11-12T19:00", endDate: "2018-11-12T19:30", title: "Else" }
+	{ startDate: "2020-11-08T09:45", endDate: "2020-11-08T11:00", title: "Meeting" },
+	{ startDate: "2020-11-09T12:00", endDate: "2020-11-09T13:30", title: "Go to a gym" },
+	{ startDate: "2020-11-10T16:00", endDate: "2020-11-10T16:30", title: "Else" },
+	{ startDate: "2020-11-11T13:00", endDate: "2020-11-11T13:30", title: "Else" },
+	{ startDate: "2020-11-12T19:00", endDate: "2020-11-12T19:30", title: "Else" }
 ];
 
 export const Calendar = () => (
